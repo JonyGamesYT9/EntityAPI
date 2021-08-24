@@ -45,7 +45,7 @@ class EntityCreator
         new StringTag("Name", $player->getSkin()->getSkinData()),
       ]),
     ]);
-    if (!is_null($name)) {
+    if (!empty($name)) {
       $nbt->setString("Name", $name);
     } else {
       $nbt->setString("Name", "");
