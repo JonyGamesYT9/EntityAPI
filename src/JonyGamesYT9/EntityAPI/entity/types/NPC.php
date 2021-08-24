@@ -35,7 +35,7 @@ class NPC extends \pocketmine\entity\Human
   }
 
   /**
-  * @return string
+  * @return float
   */
   public function getFloatScale(): float
   {
