@@ -121,9 +121,10 @@ public function onDamageNpc(EntityDamageEventByEntityEvent $event) {
 </ul>
 
 <h3>📋 Icon:</h3>
-<p>Icon Credits: https://co.pinterest.com/edison4138/skins-de-minecraft/</p>
+<p>Icon Credits: https://co.pinterest.com/edison4138/skins-de-minecraft/ </p>
 
 <h3>📖 Project information:</h3>
-| Version | Pocketmine API | PHP | Status |
+
+| Plugin Version | Pocketmine API | PHP Version | Plugin Status |
 |---|---|---|---|
-| 1.0 | 3.0.0 | 7.4 | Verified |
+| 1.0.0 | 3.x.x | 7.4 | In Developing |
