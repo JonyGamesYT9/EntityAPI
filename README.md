@@ -24,9 +24,7 @@ $entity = EntityAPI::getPlugin()->getEntityCreator();
 $entity->spawn($player, $name, $scale);
 ```
 
-The $player variable is getting the Player class.
-In the variable $name replace it with the name of the entity (No Nametag) (String Tag)
-In the variable $scale put the size of the entity (Float Scale) (Default: 1.0)
+The $player variable is getting the Player class, In the variable $name replace it with the name of the entity (No Nametag) (String Tag), In the variable $scale put the size of the entity (Float Scale) (Default: 1.0)
 
 <h1>Code to kill entity:</h1>
 Use this code to disappear an entity.
