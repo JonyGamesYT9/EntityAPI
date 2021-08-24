@@ -127,4 +127,4 @@ public function onDamageNpc(EntityDamageEventByEntityEvent $event) {
 
 | Plugin Version | Pocketmine API | PHP Version | Plugin Status |
 |---|---|---|---|
-| 1.0.0 | 3.x.x | 7.4 | In Developing |
+| 1.0 | 3.x.x | 7.4 | In Developing |
