@@ -33,7 +33,7 @@ Use this code to disappear an entity.
 <?php 
 
 $entity = EntityAPI::getPlugin()->getEntityEliminator();
-$entity->eliminate($name); // Replace the variable $name with the name of the entity.
+$entity->eliminate($player, $name); // Replace the variable $name with the name of the entity, The $player variable is getting the Player class.
 ```
 
 Or to remove all entities use:
