@@ -6,33 +6,40 @@
 <h3>🎮 API Usage:</h3>
 <h1>Import the class:</h1>
 Put these classes in your plugin so you can easily access the API.
+
 ```php 
 <?php 
 
 use JonyGamesYT9\EntityAPI\EntityAPI;
 use JonyGamesYT9\EntityAPI\entity\types\NPC;
 ```
+
 <h1>Code to spawn entity:</h1>
 Use this method to make an entity appear.
+
 ```php 
 <?php 
 
 $entity = EntityAPI::getPlugin()->getEntityCreator();
 $entity->spawn($player, $name, $scale);
 ```
+
 The $player variable is getting the Player class.
 In the variable $name replace it with the name of the entity (No Nametag) (String Tag)
 In the variable $scale put the size of the entity (Float Scale) (Default: 1.0)
 
 <h1>Code to kill entity:</h1>
 Use this code to disappear an entity.
+
 ```php 
 <?php 
 
 $entity = EntityAPI::getPlugin()->getEntityEliminator();
 $entity->eliminate($name); // Replace the variable $name with the name of the entity.
 ```
+
 Or to remove all entities use:
+
 ```php 
 <?php 
 
@@ -44,13 +51,16 @@ $entity->eliminateAll(); // Doing this will eliminate all Entities from all worl
 To create a task with the entity you can use this example:
 
 Import Class:
+
 ```php 
 <?php
 
 use pocketmine\Server;
 use JonyGamesYT9\EntityAPI\entity\types\NPC;
 ```
+
 Code:
+
 ```php 
 <?php 
 
@@ -75,6 +85,7 @@ public function onRun(int $tick) {
 By doing this example you will make hitting the entity do an action.
 
 Import Class:
+
 ```php 
 <?php 
 
@@ -83,7 +94,9 @@ use pocketmine\Player;
 use pocketmine\Server;
 use JonyGamesYT9\EntityAPI\entity\types\NPC;
 ```
+
 Code:
+
 ```php 
 <?php 
 
