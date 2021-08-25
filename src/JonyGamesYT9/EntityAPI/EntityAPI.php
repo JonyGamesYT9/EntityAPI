@@ -51,7 +51,6 @@ class EntityAPI extends PluginBase
         }
       }
     }
-    $this->getLogger()->info("EntityAPI: The API is loaded correctly, all entities loaded.");
   }
   
   /**
