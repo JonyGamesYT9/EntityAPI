@@ -1,7 +1,5 @@
----
 name: EntityAPI
-version: 1.0
-antigen: JonyGamesYT9\EntityAPI
+version: 1.0.0
+antigen: jonygamesyt9\entityapi
 api: [3.0.0]
-author: JonyGamesYT9 
-...
+author: JonyGamesYT9
