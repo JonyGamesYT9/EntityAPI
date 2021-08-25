@@ -2,7 +2,6 @@
 
 namespace JonyGamesYT9\EntityAPI\entity\types;
 
-use pocketmine\level\Level;
 use pocketmine\nbt\tag\CompoundTag;
 
 /**
@@ -11,16 +10,6 @@ use pocketmine\nbt\tag\CompoundTag;
 */
 class NPC extends \pocketmine\entity\Human
 {
-
-  /**
-  * NPC constructor.
-  * @param Level $level
-  * @param CompoundTag $nbt
-  */
-  public function __construct(Level $level, CompoundTag $nbt)
-  {
-    parent::__construct($level, $nbt);
-  }
 
   /**
   * @return string
