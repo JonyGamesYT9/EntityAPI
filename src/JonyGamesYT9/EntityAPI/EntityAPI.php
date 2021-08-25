@@ -9,6 +9,7 @@ use pocketmine\plugin\PluginBase;
 use pocketmine\entity\Entity;
 use pocketmine\Server;
 
+/* What? */
 /**
  * Class EntityAPI
  * @package JonyGamesYT9\EntityAPI
