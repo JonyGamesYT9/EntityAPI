@@ -103,7 +103,7 @@ Import Class:
 <?php 
 
 use pocketmine\event\entity\EntityDamageEventByEntityEvent;
-use pocketmine\Player;
+use pocketmine\player\Player;
 use pocketmine\Server;
 use JonyGamesYT9\EntityAPI\entity\types\NPC;
 ```
