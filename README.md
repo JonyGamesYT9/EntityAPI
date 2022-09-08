@@ -84,7 +84,7 @@ public function onRun(): void {
         switch ($entities->getIdName()) {
           case "name":
           $entities->setNameTag("Entity NameTag");
-          $entities->setScale($entities->getFloatScale());
+          $entities->setScale($entities->getScaleCustom());
           $entities->setNameTagAlwaysVisible(true);
           break;
         }
