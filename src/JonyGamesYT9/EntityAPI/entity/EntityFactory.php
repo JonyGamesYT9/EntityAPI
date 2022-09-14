@@ -33,13 +33,7 @@ class EntityFactory {
 
     public function eliminateAll(string $id_name): void {
         foreach (Server::getInstance()->getWorldManager()->getWorlds() as $world) {
-            foreach ($world->getEntities() as $entities) {
-                if ($entities instanceof NPC) {
-                    if ($entities->equals($id_name)) {
-                        $entities->flagForDespawn();
-                    }
-                }
-            }
+            $this->eliminate($id_name, $world);
         }
     }
 
